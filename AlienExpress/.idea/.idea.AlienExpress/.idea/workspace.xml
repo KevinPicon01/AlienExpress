@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,15 +42,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="432">
+              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
-                <marker date="1580537828395" expanded="false" signature="6:78" ph="..." />
-                <marker date="1580537828395" expanded="true" signature="121:629" ph="{...}" />
-                <marker date="1580537828395" expanded="true" signature="271:292" ph="{...}" />
-                <marker date="1580537828395" expanded="true" signature="350:627" ph="{...}" />
-                <marker date="1580537828395" expanded="true" signature="410:529" ph="{...}" />
-                <marker date="1580537828395" expanded="true" signature="588:621" ph="{...}" />
+                <marker date="1580537914371" expanded="false" signature="6:113" ph="..." />
+                <marker date="1580537914371" expanded="true" signature="156:733" ph="{...}" />
+                <marker date="1580537914371" expanded="true" signature="330:351" ph="{...}" />
+                <marker date="1580537914371" expanded="true" signature="409:731" ph="{...}" />
+                <marker date="1580537914371" expanded="true" signature="469:588" ph="{...}" />
+                <marker date="1580537914371" expanded="true" signature="647:725" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -174,12 +168,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580526960656</updated>
-      <workItem from="1580526977199" duration="9910000" />
+      <workItem from="1580526977199" duration="10257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9910000" />
+    <option name="totallyTimeSpent" value="10257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,15 +265,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="432">
+          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
-            <marker date="1580537828395" expanded="false" signature="6:78" ph="..." />
-            <marker date="1580537828395" expanded="true" signature="121:629" ph="{...}" />
-            <marker date="1580537828395" expanded="true" signature="271:292" ph="{...}" />
-            <marker date="1580537828395" expanded="true" signature="350:627" ph="{...}" />
-            <marker date="1580537828395" expanded="true" signature="410:529" ph="{...}" />
-            <marker date="1580537828395" expanded="true" signature="588:621" ph="{...}" />
+            <marker date="1580537914371" expanded="false" signature="6:113" ph="..." />
+            <marker date="1580537914371" expanded="true" signature="156:733" ph="{...}" />
+            <marker date="1580537914371" expanded="true" signature="330:351" ph="{...}" />
+            <marker date="1580537914371" expanded="true" signature="409:731" ph="{...}" />
+            <marker date="1580537914371" expanded="true" signature="469:588" ph="{...}" />
+            <marker date="1580537914371" expanded="true" signature="647:725" ph="{...}" />
           </folding>
         </state>
       </provider>
