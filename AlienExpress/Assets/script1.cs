@@ -5,30 +5,25 @@ using UnityEngine;
 
 public class script1 : MonoBehaviour
 {
-    private Rigidbody2D _rigidbody;
-    public float speed;
-    void Start()
-    {
-        _rigidbody = GetComponent<Rigidbody2D>();
+    public float moveForce;         
+    public float maxSpeed;     
+ 
+    private Vector3 v;
+         
+    void Update () {
+        v = new Vector3(Input.GetAxis("Horizontal"), 
+            0.0f, 0.0f);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+         
+    void FixedUpdate() {
+        GetComponent<Rigidbody2D>().velocity = Vector3.ClampMagnitude 
+            (GetComponent<Rigidbody2D>().velocity, maxSpeed);
+        GetComponent<Rigidbody2D>().AddForce(v.normalized * moveForce);    
+        GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity * 0.8f;
     }
-
-    private void FixedUpdate()
-    {
-        if (Input.GetAxis("Horizontal") > 0)
-            _rigidbody.AddForce(Vector2.right * speed);
-        
-        if (Input.GetAxis("Horizontal") < 0 )
-            _rigidbody.AddForce(Vector2.left * speed);
-        
         
         
 
 
     }
-}
+
