@@ -6,8 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
 
-
-    
     // 0 Antes 1 Durante 2 Despues
     private int jugando = 0;
     public int Jugando
@@ -33,18 +31,6 @@ public class GameManager : MonoBehaviour
         {
             spawnedObject = value;
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void Awake()
