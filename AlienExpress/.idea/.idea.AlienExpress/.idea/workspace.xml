@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="" />
+    <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Desvanecer.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Desvanecer.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Square.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Square.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CambioImagen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CambioImagen.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +52,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="576">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
               <folding>
-                <marker date="1580537914371" expanded="false" signature="6:113" ph="..." />
-                <marker date="1580537914371" expanded="true" signature="156:733" ph="{...}" />
-                <marker date="1580537914371" expanded="true" signature="330:351" ph="{...}" />
-                <marker date="1580537914371" expanded="true" signature="409:731" ph="{...}" />
-                <marker date="1580537914371" expanded="true" signature="469:588" ph="{...}" />
-                <marker date="1580537914371" expanded="true" signature="647:725" ph="{...}" />
+                <marker date="1580563343154" expanded="true" signature="6:148" ph="..." />
+                <marker date="1580563343154" expanded="true" signature="191:878" ph="{...}" />
+                <marker date="1580563343154" expanded="true" signature="439:468" ph="{...}" />
+                <marker date="1580563343154" expanded="true" signature="526:869" ph="{...}" />
+                <marker date="1580563343154" expanded="true" signature="625:744" ph="{...}" />
+                <marker date="1580563343154" expanded="true" signature="763:841" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="362" />
     <option name="y" value="160" />
     <option name="width" value="1386" />
@@ -150,10 +160,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="13696">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="18524">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13696" />
+      <option name="pid" value="18524" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -168,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580526960656</updated>
-      <workItem from="1580526977199" duration="10594000" />
+      <workItem from="1580526977199" duration="16054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10594000" />
+    <option name="totallyTimeSpent" value="16054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,7 +199,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13605443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13605443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -203,7 +213,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -265,15 +275,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="576">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
-            <marker date="1580537914371" expanded="false" signature="6:113" ph="..." />
-            <marker date="1580537914371" expanded="true" signature="156:733" ph="{...}" />
-            <marker date="1580537914371" expanded="true" signature="330:351" ph="{...}" />
-            <marker date="1580537914371" expanded="true" signature="409:731" ph="{...}" />
-            <marker date="1580537914371" expanded="true" signature="469:588" ph="{...}" />
-            <marker date="1580537914371" expanded="true" signature="647:725" ph="{...}" />
+            <marker date="1580563343154" expanded="true" signature="6:148" ph="..." />
+            <marker date="1580563343154" expanded="true" signature="191:878" ph="{...}" />
+            <marker date="1580563343154" expanded="true" signature="439:468" ph="{...}" />
+            <marker date="1580563343154" expanded="true" signature="526:869" ph="{...}" />
+            <marker date="1580563343154" expanded="true" signature="625:744" ph="{...}" />
+            <marker date="1580563343154" expanded="true" signature="763:841" ph="{...}" />
           </folding>
         </state>
       </provider>
