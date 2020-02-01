@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/script1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +28,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/script1.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Menu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+            <state relative-caret-position="172">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
               <folding>
-                <marker date="1580531281213" expanded="true" signature="6:92" ph="..." />
-                <marker date="1580531281213" expanded="true" signature="130:710" ph="{...}" />
-                <marker date="1580531281213" expanded="true" signature="256:342" ph="{...}" />
-                <marker date="1580531281213" expanded="true" signature="376:684" ph="{...}" />
+                <marker date="1580535234244" expanded="true" signature="6:127" ph="..." />
+                <marker date="1580535234244" expanded="true" signature="162:552" ph="{...}" />
+                <marker date="1580535234244" expanded="false" signature="287:308" ph="{...}" />
+                <marker date="1580535234244" expanded="true" signature="366:498" ph="{...}" />
+                <marker date="1580535234244" expanded="true" signature="413:492" ph="{...}" />
+                <marker date="1580535234244" expanded="true" signature="530:550" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding>
+                <marker date="1580537828395" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580537828395" expanded="true" signature="121:629" ph="{...}" />
+                <marker date="1580537828395" expanded="true" signature="271:292" ph="{...}" />
+                <marker date="1580537828395" expanded="true" signature="350:627" ph="{...}" />
+                <marker date="1580537828395" expanded="true" signature="410:529" ph="{...}" />
+                <marker date="1580537828395" expanded="true" signature="588:621" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,13 +68,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/script1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CambioImagen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.19f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/TouchInputModule.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/script1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/CambioImagen.cs" />
       </list>
     </option>
   </component>
@@ -80,6 +105,15 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -140,12 +174,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580526960656</updated>
-      <workItem from="1580526977199" duration="4140000" />
+      <workItem from="1580526977199" duration="9910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4140000" />
+    <option name="totallyTimeSpent" value="9910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,7 +195,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13605443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13605443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -217,11 +251,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Menu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
           <folding>
-            <marker date="1580531281213" expanded="true" signature="6:92" ph="..." />
-            <marker date="1580531281213" expanded="true" signature="130:710" ph="{...}" />
-            <marker date="1580531281213" expanded="true" signature="256:342" ph="{...}" />
-            <marker date="1580531281213" expanded="true" signature="376:684" ph="{...}" />
+            <marker date="1580535234244" expanded="true" signature="6:127" ph="..." />
+            <marker date="1580535234244" expanded="true" signature="162:552" ph="{...}" />
+            <marker date="1580535234244" expanded="false" signature="287:308" ph="{...}" />
+            <marker date="1580535234244" expanded="true" signature="366:498" ph="{...}" />
+            <marker date="1580535234244" expanded="true" signature="413:492" ph="{...}" />
+            <marker date="1580535234244" expanded="true" signature="530:550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <marker date="1580537828395" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580537828395" expanded="true" signature="121:629" ph="{...}" />
+            <marker date="1580537828395" expanded="true" signature="271:292" ph="{...}" />
+            <marker date="1580537828395" expanded="true" signature="350:627" ph="{...}" />
+            <marker date="1580537828395" expanded="true" signature="410:529" ph="{...}" />
+            <marker date="1580537828395" expanded="true" signature="588:621" ph="{...}" />
           </folding>
         </state>
       </provider>
