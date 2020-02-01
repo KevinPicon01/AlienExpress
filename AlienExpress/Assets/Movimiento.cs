@@ -5,7 +5,8 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
     public int speed;
-    public GameObject objeto;
+    public int rotation1;
+  
     private Rigidbody2D _rigidbody;
 
  
@@ -21,15 +22,17 @@ public class Movimiento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (objeto.transform.position.x >= 8.36f)
+        
+        if (transform.position.x >= 8.36f)
         {
             _rigidbody.AddForce(Vector2.left * speed *2 );
             if (_rigidbody.velocity.x < -5)
             {
                 _rigidbody.velocity = new Vector2(-5, _rigidbody.velocity.y);
             }
+            
         }
-        else if (objeto.transform.position.x <= -8.36f)
+        else if (transform.position.x <= -8.36f)
         {   
            
             _rigidbody.AddForce(Vector2.right* speed*2);
@@ -40,7 +43,7 @@ public class Movimiento : MonoBehaviour
             }
         }
 
-        if (objeto.transform.position.y >= -0.49)
+        if (transform.position.y >= -0.49)
         {
             
             _rigidbody.AddForce(Vector2.down* speed);
@@ -49,9 +52,9 @@ public class Movimiento : MonoBehaviour
                 _rigidbody.velocity = new Vector2( _rigidbody.velocity.x, -5);
             }
         }
-        else if (objeto.transform.position.y <= -4.47)
+        else if (transform.position.y <= -4.47)
         {
-           
+            
             _rigidbody.AddForce(Vector2.up * speed);
             if (_rigidbody.velocity.y >= 5)
             {

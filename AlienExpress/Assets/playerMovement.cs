@@ -6,16 +6,22 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     public float moveForce;         
-    public float maxSpeed;     
- 
+    public float maxSpeed;
+    private Rigidbody2D _rigidbody2D;
     private Vector3 v;
          
     void Update () {
         v = new Vector3(Input.GetAxis("Horizontal"), 
             0.0f, 0.0f);
+        
+        
+           
+        
     }
          
     void FixedUpdate() {
+        
+       
         GetComponent<Rigidbody2D>().velocity = Vector3.ClampMagnitude 
             (GetComponent<Rigidbody2D>().velocity, maxSpeed);
         GetComponent<Rigidbody2D>().AddForce(v.normalized * moveForce);    
