@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Menu.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <marker date="1580535234244" expanded="true" signature="6:127" ph="..." />
                 <marker date="1580535234244" expanded="true" signature="162:552" ph="{...}" />
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="244">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
                 <marker date="1580537914371" expanded="false" signature="6:113" ph="..." />
                 <marker date="1580537914371" expanded="true" signature="156:733" ph="{...}" />
@@ -168,12 +168,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580526960656</updated>
-      <workItem from="1580526977199" duration="10257000" />
+      <workItem from="1580526977199" duration="10594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10257000" />
+    <option name="totallyTimeSpent" value="10594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,7 +251,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Menu.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
           <folding>
             <marker date="1580535234244" expanded="true" signature="6:127" ph="..." />
             <marker date="1580535234244" expanded="true" signature="162:552" ph="{...}" />
@@ -265,8 +265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="244">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
             <marker date="1580537914371" expanded="false" signature="6:113" ph="..." />
             <marker date="1580537914371" expanded="true" signature="156:733" ph="{...}" />
