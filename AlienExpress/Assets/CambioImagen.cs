@@ -14,6 +14,7 @@ public class CambioImagen : MonoBehaviour
     public float tiempo_start = 0.0f;
     public float tiempo_end = 0.0f;
     public string sceneName;
+
     
     // Start is called before the first frame update
     void Start()
@@ -34,12 +35,11 @@ public class CambioImagen : MonoBehaviour
 
             x += 19.5f;
             tiempo_end += 5f;
-        }else if (x >= 58.5)
+        }else if (tiempo_start>=tiempo_end && x >= 58.5)
         {
             SceneManager.LoadScene(sceneName: sceneName);
         }
 
-        // 
         
     }
 
