@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -6,7 +7,7 @@ public class Movimiento : MonoBehaviour
 {
     public int speed;
     public int rotation1;
-  
+    private bool ab = true;
     private Rigidbody2D _rigidbody;
 
  
@@ -18,9 +19,48 @@ public class Movimiento : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         _rigidbody.AddForce(new Vector2(20f,30f));
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+        
+        _rigidbody.velocity = new Vector2(0, 0);
+        _rigidbody.AddForce(Vector2.up * 100);
+        ab = false;
+
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Finish") )
+        {
+            
+            Destroy(gameObject,0.1f);
+        }
+
+       
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        ab = true;
+    }
 
     // Update is called once per frame
     void Update()
+    {
+        if (ab)
+        {
+            rebota();
+            
+        }
+        
+        
+        
+    }
+
+    void rebota()
     {
         
         if (transform.position.x >= 8.36f)
