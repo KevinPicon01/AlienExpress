@@ -1,7 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class RandomObjects : MonoBehaviour
 {
+    public string sceneName;
+    private float tiempo_start;
+    public float tiempo_end;
     public GameObject[] objs = new GameObject[5];
 
     // Start is called before the first frame update
@@ -28,5 +34,15 @@ public class RandomObjects : MonoBehaviour
             print(ob[t]);
         }
     }
-    
+
+    private void FixedUpdate()
+    {
+        tiempo_start += Time.deltaTime;
+
+
+        if (tiempo_start >= tiempo_end )
+        {
+            SceneManager.LoadScene(sceneName: sceneName);
+        }
+    }
 }
