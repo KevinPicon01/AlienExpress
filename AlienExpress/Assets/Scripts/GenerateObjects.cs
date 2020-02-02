@@ -40,25 +40,33 @@ public class GenerateObjects : MonoBehaviour
     void SetRandomObject01() 
     {
         var _obj = Random.Range(1, 4);
-        Debug.Log(_obj + " HOLAAAAAAAAAAAAAAAAAAAAAAAA");
         transform.GetChild(_obj).tag = "ObjetoBuscar";
+        Destroy(transform.GetChild(_obj).GetComponent<PolygonCollider2D>());
+        transform.GetChild(_obj).GetComponent<SpriteRenderer>().sprite = gm.obj01.GetComponent<SpriteRenderer>().sprite;
         transform.GetChild(_obj).GetComponent<SpriteRenderer>().color = gm.obj01.GetComponent<SpriteRenderer>().color;
+        transform.GetChild(_obj).gameObject.AddComponent<PolygonCollider2D>();
     }
 
     void SetRandomObject02()
     {
         var _obj = Random.Range(4, 8);
-        Debug.Log(_obj + " HOLAAAAAAAAAAAAAAAAAAAAAAAA");
         transform.GetChild(_obj).tag = "ObjetoBuscar";
+        Destroy(transform.GetChild(_obj).GetComponent<PolygonCollider2D>());
+        transform.GetChild(_obj).GetComponent<SpriteRenderer>().sprite = gm.obj02.GetComponent<SpriteRenderer>().sprite;
         transform.GetChild(_obj).GetComponent<SpriteRenderer>().color = gm.obj02.GetComponent<SpriteRenderer>().color;
+        transform.GetChild(_obj).gameObject.AddComponent<PolygonCollider2D>();
     }
 
     void SetRandomObject03()
     {
         var _obj = Random.Range(8, 10);
-        Debug.Log(_obj + " HOLAAAAAAAAAAAAAAAAAAAAAAAA");
         transform.GetChild(_obj).tag = "ObjetoBuscar";
+        Destroy(transform.GetChild(_obj).GetComponent<PolygonCollider2D>());
+        transform.GetChild(_obj).GetComponent<SpriteRenderer>().sprite = gm.obj03.GetComponent<SpriteRenderer>().sprite;
         transform.GetChild(_obj).GetComponent<SpriteRenderer>().color = gm.obj03.GetComponent<SpriteRenderer>().color;
+        transform.GetChild(_obj).gameObject.AddComponent<PolygonCollider2D>();
+
+
     }
 
     // Update is called once per frame
