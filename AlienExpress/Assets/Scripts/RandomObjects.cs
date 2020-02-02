@@ -10,23 +10,29 @@ public class RandomObjects : MonoBehaviour
     public float tiempo_end;
     public GameObject[] objs = new GameObject[5];
 
+    GameManager gm;
+
+    /*
     public GameObject obj01;
     public GameObject obj02;
     public GameObject obj03;
+    */
 
     // Start is called before the first frame update
     void Start()
     {
+        gm = GameObject.FindWithTag("GameController").GetComponent<GameManager>();
+
         ShuffleObjects(objs);
         
         for (int i = 0; i < 3; i++)
         {
             if (i <= 0)
-                obj01 = objs[i];
+                gm.obj01 = objs[i];
             else if (i < 2 && i != 0)
-                obj02 = objs[i];
+                gm.obj02 = objs[i];
             else
-                obj03 = objs[i];
+                gm.obj03 = objs[i];
 
 
             Instantiate(objs[i], new Vector3(i * 1.5f, 0, 0), Quaternion.identity);
@@ -46,7 +52,7 @@ public class RandomObjects : MonoBehaviour
             print(ob[t]);
         }
     }
-
+    
     private void FixedUpdate()
     {
         tiempo_start += Time.deltaTime;
@@ -57,4 +63,5 @@ public class RandomObjects : MonoBehaviour
             SceneManager.LoadScene(sceneName: sceneName);
         }
     }
+    
 }
