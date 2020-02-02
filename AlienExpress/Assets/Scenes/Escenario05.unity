@@ -355,6 +355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cef8ca482226c024daf7fc5cc384346f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Gam
+  tiempo_end: 5
   objs:
   - {fileID: 1493490116199732417, guid: 1f8c3328ad4674f4e8007f4cab0430d2, type: 3}
   - {fileID: 5142889097957311633, guid: 248c757ffeac963439547abc60f030d2, type: 3}
