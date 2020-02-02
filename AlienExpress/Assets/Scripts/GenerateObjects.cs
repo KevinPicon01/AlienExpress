@@ -39,7 +39,7 @@ public class GenerateObjects : MonoBehaviour
 
     void SetRandomObject01() 
     {
-        var _obj = Random.Range(1, transform.childCount);
+        var _obj = Random.Range(1, 4);
         Debug.Log(_obj + " HOLAAAAAAAAAAAAAAAAAAAAAAAA");
         transform.GetChild(_obj).tag = "ObjetoBuscar";
         transform.GetChild(_obj).GetComponent<SpriteRenderer>().color = gm.obj01.GetComponent<SpriteRenderer>().color;
@@ -47,7 +47,7 @@ public class GenerateObjects : MonoBehaviour
 
     void SetRandomObject02()
     {
-        var _obj = Random.Range(1, transform.childCount);
+        var _obj = Random.Range(4, 8);
         Debug.Log(_obj + " HOLAAAAAAAAAAAAAAAAAAAAAAAA");
         transform.GetChild(_obj).tag = "ObjetoBuscar";
         transform.GetChild(_obj).GetComponent<SpriteRenderer>().color = gm.obj02.GetComponent<SpriteRenderer>().color;
@@ -55,7 +55,7 @@ public class GenerateObjects : MonoBehaviour
 
     void SetRandomObject03()
     {
-        var _obj = Random.Range(1, transform.childCount);
+        var _obj = Random.Range(8, 10);
         Debug.Log(_obj + " HOLAAAAAAAAAAAAAAAAAAAAAAAA");
         transform.GetChild(_obj).tag = "ObjetoBuscar";
         transform.GetChild(_obj).GetComponent<SpriteRenderer>().color = gm.obj03.GetComponent<SpriteRenderer>().color;

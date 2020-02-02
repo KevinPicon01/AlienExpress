@@ -9,19 +9,17 @@ public class GameManager : MonoBehaviour
     public GameObject obj01;
     public GameObject obj02;
     public GameObject obj03;
-
-
-    // 0 Antes 1 Durante 2 Despues
-    private int jugando = 0;
-    public int Jugando
+    
+    private bool perder = false;
+    public bool Perder
     {
         get
         {
-            return jugando;
+            return perder;
         }
         set
         {
-            jugando = value;
+            perder = value;
         }
     }
 

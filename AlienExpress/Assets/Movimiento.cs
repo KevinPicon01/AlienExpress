@@ -73,7 +73,7 @@ public class Movimiento : MonoBehaviour
             }
         }
 
-        if (transform.position.y >= 4.50)
+        if (transform.position.y >= 3.50)
         {
             _rigidbody.AddForce(Vector2.down* speed);
             if (_rigidbody.velocity.y < -5)
