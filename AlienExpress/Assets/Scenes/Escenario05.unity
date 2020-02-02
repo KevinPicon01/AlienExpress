@@ -281,10 +281,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1919449659}
+  - component: {fileID: 1919449661}
   - component: {fileID: 1919449660}
   m_Layer: 0
   m_Name: Randomizador
-  m_TagString: Untagged
+  m_TagString: Randomizador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -323,3 +324,20 @@ MonoBehaviour:
   - {fileID: 1374567464418642472, guid: c05979dcd5697d7419841f3d1f6da6d8, type: 3}
   - {fileID: 3849648868556011955, guid: 8f781e9250ab2694ebfe721c22c74d6c, type: 3}
   - {fileID: 4415363918703805439, guid: 442089e4a2d34fd46b750fcebce64afa, type: 3}
+--- !u!114 &1919449661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919449658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9f9bea42fce0642a7cfa1a448194ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene1: {fileID: 0}
+  x: 0
+  tiempo_start: 0
+  tiempo_end: 2
+  sceneName: Gam
