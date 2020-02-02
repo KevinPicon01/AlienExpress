@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 908950525497277766}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Finish
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveForce: 35
   maxSpeed: 35
-  SceneName: 
 --- !u!70 &8703513638611619598
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -149,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1843920c27556564790d812c7b869213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changeTime: 0
+  sceneName: 
 --- !u!1 &3776341191744043453
 GameObject:
   m_ObjectHideFlags: 0
