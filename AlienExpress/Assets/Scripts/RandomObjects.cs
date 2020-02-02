@@ -32,7 +32,7 @@ public class RandomObjects : MonoBehaviour
                 gm.obj03 = objs[i];
 
 
-            Instantiate(objs[i], new Vector3((i * -1.8f) + 1, 0, 0), Quaternion.identity);
+            Instantiate(objs[i], new Vector3((i * -1.8f) + 0.1f, 0, 0), Quaternion.identity);
         }
         //rand = Random(objs.Length);
     }
