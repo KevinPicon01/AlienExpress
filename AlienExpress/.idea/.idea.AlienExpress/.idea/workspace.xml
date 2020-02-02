@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RandomObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RandomObjects.cs" afterDir="false" />
-    </list>
+    <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +43,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RandomObjects.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="120">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1580617030152" expanded="true" signature="6:102" ph="..." />
-                <marker date="1580617030152" expanded="true" signature="146:1137" ph="{...}" />
-                <marker date="1580617030152" expanded="true" signature="358:587" ph="{...}" />
-                <marker date="1580617030152" expanded="true" signature="439:543" ph="{...}" />
-                <marker date="1580617030152" expanded="true" signature="629:930" ph="{...}" />
-                <marker date="1580617030152" expanded="true" signature="742:924" ph="{...}" />
-                <marker date="1580617030152" expanded="true" signature="962:1135" ph="{...}" />
-                <marker date="1580617030152" expanded="true" signature="1051:1129" ph="{...}" />
+                <marker date="1580617082528" expanded="true" signature="6:102" ph="..." />
+                <marker date="1580617082528" expanded="true" signature="146:1138" ph="{...}" />
+                <marker date="1580617082528" expanded="true" signature="359:588" ph="{...}" />
+                <marker date="1580617082528" expanded="true" signature="440:544" ph="{...}" />
+                <marker date="1580617082528" expanded="true" signature="630:931" ph="{...}" />
+                <marker date="1580617082528" expanded="true" signature="743:925" ph="{...}" />
+                <marker date="1580617082528" expanded="true" signature="963:1136" ph="{...}" />
+                <marker date="1580617082528" expanded="true" signature="1052:1130" ph="{...}" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Pausa.cs">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -104,6 +107,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Pausa.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Movimiento.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Rayo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Abd.cs" root0="FORCE_HIGHLIGHTING" />
@@ -136,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="362" />
     <option name="y" value="160" />
     <option name="width" value="1386" />
@@ -221,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580526960656</updated>
-      <workItem from="1580526977199" duration="34523000" />
+      <workItem from="1580526977199" duration="35172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34523000" />
+    <option name="totallyTimeSpent" value="35172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,20 +401,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RandomObjects.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="120">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1580617030152" expanded="true" signature="6:102" ph="..." />
-            <marker date="1580617030152" expanded="true" signature="146:1137" ph="{...}" />
-            <marker date="1580617030152" expanded="true" signature="358:587" ph="{...}" />
-            <marker date="1580617030152" expanded="true" signature="439:543" ph="{...}" />
-            <marker date="1580617030152" expanded="true" signature="629:930" ph="{...}" />
-            <marker date="1580617030152" expanded="true" signature="742:924" ph="{...}" />
-            <marker date="1580617030152" expanded="true" signature="962:1135" ph="{...}" />
-            <marker date="1580617030152" expanded="true" signature="1051:1129" ph="{...}" />
+            <marker date="1580617082528" expanded="true" signature="6:102" ph="..." />
+            <marker date="1580617082528" expanded="true" signature="146:1138" ph="{...}" />
+            <marker date="1580617082528" expanded="true" signature="359:588" ph="{...}" />
+            <marker date="1580617082528" expanded="true" signature="440:544" ph="{...}" />
+            <marker date="1580617082528" expanded="true" signature="630:931" ph="{...}" />
+            <marker date="1580617082528" expanded="true" signature="743:925" ph="{...}" />
+            <marker date="1580617082528" expanded="true" signature="963:1136" ph="{...}" />
+            <marker date="1580617082528" expanded="true" signature="1052:1130" ph="{...}" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Pausa.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

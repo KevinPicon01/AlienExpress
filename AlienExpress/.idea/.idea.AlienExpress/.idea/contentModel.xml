@@ -61,6 +61,7 @@
         </e>
         <e p="Menu.cs" t="Include" />
         <e p="Movimiento.cs" t="Include" />
+        <e p="Pausa.cs" t="Include" />
         <e p="playerMovement.cs" t="Include" />
         <e p="Rayo.cs" t="Include" />
         <e p="Scripts" t="Include">
