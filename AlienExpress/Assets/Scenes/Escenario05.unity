@@ -319,11 +319,11 @@ MonoBehaviour:
   sceneName: Gam
   tiempo_end: 5
   objs:
-  - {fileID: 1493490116199732417, guid: 1f8c3328ad4674f4e8007f4cab0430d2, type: 3}
+  - {fileID: 1954383878619501665, guid: a2ef997d167c3b0469ad16e869cf1328, type: 3}
   - {fileID: 5142889097957311633, guid: 248c757ffeac963439547abc60f030d2, type: 3}
-  - {fileID: 1374567464418642472, guid: c05979dcd5697d7419841f3d1f6da6d8, type: 3}
+  - {fileID: 7075930873994248228, guid: 41c71ed62dd640349a3d2e2a109e4e78, type: 3}
   - {fileID: 3849648868556011955, guid: 8f781e9250ab2694ebfe721c22c74d6c, type: 3}
-  - {fileID: 4415363918703805439, guid: 442089e4a2d34fd46b750fcebce64afa, type: 3}
+  - {fileID: 7043172138480028721, guid: 2558ed059809fe547b4f03b2f82b73db, type: 3}
 --- !u!114 &1919449661
 MonoBehaviour:
   m_ObjectHideFlags: 0
