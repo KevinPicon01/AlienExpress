@@ -10,11 +10,30 @@ public class playerMovement : MonoBehaviour
     public float maxSpeed;
     private Rigidbody2D _rigidbody2D;
     private Vector3 v;
-         
+
+    public AudioClip clip;
+    private AudioSource audio;
+
+    private void Start()
+    {
+        audio = gameObject.GetComponent<AudioSource>();
+        
+        audio.clip = clip;
+    }
+
     void Update () 
     {
         v = new Vector3(Input.GetAxis("Horizontal"), 
             0.0f, 0.0f);
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            audio.Play();
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            audio.Stop();
+        }
     }
          
     void FixedUpdate() 

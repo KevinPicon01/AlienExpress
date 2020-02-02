@@ -73,6 +73,7 @@
             <e p="RotarTierra.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
+          <e p="Ganar.cs" t="Include" />
           <e p="GenerateObjects.cs" t="Include" />
           <e p="Morir.cs" t="Include" />
           <e p="Prueba.cs" t="Include" />

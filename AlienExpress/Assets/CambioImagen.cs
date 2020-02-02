@@ -11,20 +11,13 @@ public class CambioImagen : MonoBehaviour
     
     public GameObject scene1;
     public float x = 19.5f;
-    public float tiempo_start = 0.0f;
-    public float tiempo_end = 0.0f;
+    public float tiempo_start;
+    public float tiempo_end;
     public string sceneName;
 
     public float ubicacionFinal;
 
     
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -39,6 +32,10 @@ public class CambioImagen : MonoBehaviour
             tiempo_end += 5f;
         }else if (tiempo_start>=tiempo_end && x >= 58.5)
         {
+            if (sceneName.Equals("Win"))
+            {
+                Application.Quit();
+            }
             SceneManager.LoadScene(sceneName: sceneName);
         }
 

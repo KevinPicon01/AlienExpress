@@ -8,6 +8,8 @@ TagManager:
   - ObjetoRecoger
   - Teleport
   - Randomizador
+  - obstaculo
+  - inspector
   layers:
   - Default
   - TransparentFX

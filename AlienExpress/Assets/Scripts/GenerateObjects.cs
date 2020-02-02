@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
+using UnityEngine.SceneManagement;
 
 public class GenerateObjects : MonoBehaviour
 {
@@ -37,6 +40,8 @@ public class GenerateObjects : MonoBehaviour
         }
     }
 
+   
+
     void SetRandomObject01() 
     {
         var _obj = Random.Range(1, 4);
@@ -72,6 +77,9 @@ public class GenerateObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.childCount <= 7)
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 }
