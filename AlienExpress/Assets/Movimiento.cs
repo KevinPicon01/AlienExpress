@@ -36,6 +36,7 @@ public class Movimiento : MonoBehaviour
         {
             Destroy(gameObject,0.1f);
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)

@@ -66,6 +66,7 @@
         <e p="Rayo.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="GameManager.cs" t="Include" />
+          <e p="GenerateObjects.cs" t="Include" />
           <e p="Prueba.cs" t="Include" />
           <e p="RandomObjects.cs" t="Include" />
         </e>

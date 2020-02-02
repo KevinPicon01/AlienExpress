@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerMovement : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class playerMovement : MonoBehaviour
     public float maxSpeed;
     private Rigidbody2D _rigidbody2D;
     private Vector3 v;
+    public string SceneName;
          
     void Update () 
     {
@@ -23,7 +25,16 @@ public class playerMovement : MonoBehaviour
         GetComponent<Rigidbody2D>().AddForce(v.normalized * moveForce);    
         GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity * 0.8f;
     }
-
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Respawn") )
+        {
+            Debug.Log("kdf");
+            
+            SceneManager.LoadScene(sceneName: SceneName);
+        }
+        
+    }
     private void OnTriggerEnter2D(Collider2D c)
     {
         if (c.CompareTag("Teleport")) 

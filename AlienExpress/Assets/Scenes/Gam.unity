@@ -1161,6 +1161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objeto01
       objectReference: {fileID: 0}
+    - target: {fileID: 5772571907966596491, guid: 64f7c850f03845244a9b5b7a56e6868e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f7c850f03845244a9b5b7a56e6868e, type: 3}
 --- !u!4 &1966021380 stripped
@@ -1272,10 +1277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410b7f318c8dfa54cb34ed6899ddd6b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rObjs: {fileID: 0}
-  obj01: {fileID: 0}
-  obj02: {fileID: 0}
-  obj03: {fileID: 0}
 --- !u!1001 &2058196429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1364,6 +1365,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3776341190911851349, guid: 907a36f9b49b8c94a88541f52e28bca7,
+        type: 3}
+      propertyPath: SceneName
+      value: GameOver
+      objectReference: {fileID: 0}
     - target: {fileID: 3776341190911851351, guid: 907a36f9b49b8c94a88541f52e28bca7,
         type: 3}
       propertyPath: m_LocalPosition.x

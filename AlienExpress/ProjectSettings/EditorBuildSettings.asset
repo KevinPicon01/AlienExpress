@@ -12,12 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 449271400e7b28844a80afb5f64105ce
   - enabled: 1
+    path: Assets/Scenes/Escenario05.unity
+    guid: 67b035bd72443ca489e1ac1fe3245244
+  - enabled: 1
     path: Assets/Scenes/Gam.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Escenario05.unity
-    guid: 67b035bd72443ca489e1ac1fe3245244
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/Outro.unity
+    guid: 83a31eb91eefc3a49ad6aa83ec69fe0c
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 50098811f69e445498c04181e8410a2c
   m_configObjects: {}
