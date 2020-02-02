@@ -66,6 +66,7 @@
         <e p="Rayo.cs" t="Include" />
         <e p="RayoRecolector.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="CargarIntro.cs" t="Include" />
           <e p="Decorativos" t="Include">
             <e p="MoverFondo.cs" t="Include" />
             <e p="recogido.cs" t="Include" />

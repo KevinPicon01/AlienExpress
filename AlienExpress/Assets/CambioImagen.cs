@@ -15,6 +15,8 @@ public class CambioImagen : MonoBehaviour
     public float tiempo_end = 0.0f;
     public string sceneName;
 
+    public float ubicacionFinal;
+
     
     // Start is called before the first frame update
     void Start()
@@ -29,7 +31,7 @@ public class CambioImagen : MonoBehaviour
         tiempo_start += Time.deltaTime;
 
 
-        if (tiempo_start>=tiempo_end && x <= 58.5)
+        if (tiempo_start>=tiempo_end && x <= ubicacionFinal)
         {
             LeanTween.moveX(scene1, x, 1f);
 

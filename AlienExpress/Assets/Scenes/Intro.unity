@@ -1081,6 +1081,7 @@ MonoBehaviour:
   tiempo_start: 0
   tiempo_end: 5
   sceneName: Escenario05
+  ubicacionFinal: 58.5
 --- !u!95 &2052697812
 Animator:
   serializedVersion: 3

@@ -4,16 +4,11 @@
     <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Movimiento.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Movimiento.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Escenario05.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Escenario05.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gam.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gam.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SplaceHolders/ObjetosRandom/Objeto01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SplaceHolders/ObjetosRandom/Objeto01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SplaceHolders/ObjetosRandom/Objeto04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SplaceHolders/ObjetosRandom/Objeto04.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/playerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/playerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Square.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outro.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outro.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,18 +51,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Decorativos/recogido.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            <state relative-caret-position="96">
+              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding>
-                <marker date="1580657915172" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580657915172" expanded="true" signature="6:78" ph="..." />
                 <marker date="1580657915172" expanded="true" signature="117:806" ph="{...}" />
                 <marker date="1580657915172" expanded="true" signature="209:357" ph="{...}" />
                 <marker date="1580657915172" expanded="true" signature="307:351" ph="{...}" />
                 <marker date="1580657915172" expanded="true" signature="378:802" ph="{...}" />
                 <marker date="1580657915172" expanded="true" signature="569:796" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="49" />
+              <folding>
+                <marker date="1580564551127" expanded="true" signature="6:148" ph="..." />
+                <marker date="1580564551127" expanded="true" signature="191:895" ph="{...}" />
+                <marker date="1580564551127" expanded="true" signature="440:469" ph="{...}" />
+                <marker date="1580564551127" expanded="true" signature="527:886" ph="{...}" />
+                <marker date="1580564551127" expanded="true" signature="626:745" ph="{...}" />
+                <marker date="1580564551127" expanded="true" signature="792:870" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -263,12 +275,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580526960656</updated>
-      <workItem from="1580526977199" duration="43615000" />
+      <workItem from="1580526977199" duration="44701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43615000" />
+    <option name="totallyTimeSpent" value="44701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,21 +386,6 @@
             <marker date="1580588607499" expanded="true" signature="486:803" ph="{...}" />
             <marker date="1580588607499" expanded="true" signature="538:627" ph="{...}" />
             <marker date="1580588607499" expanded="true" signature="672:779" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <marker date="1580564551127" expanded="true" signature="6:148" ph="..." />
-            <marker date="1580564551127" expanded="true" signature="191:895" ph="{...}" />
-            <marker date="1580564551127" expanded="true" signature="440:469" ph="{...}" />
-            <marker date="1580564551127" expanded="true" signature="527:886" ph="{...}" />
-            <marker date="1580564551127" expanded="true" signature="626:745" ph="{...}" />
-            <marker date="1580564551127" expanded="true" signature="792:870" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -567,15 +564,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Decorativos/recogido.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="96">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding>
-            <marker date="1580657915172" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580657915172" expanded="true" signature="6:78" ph="..." />
             <marker date="1580657915172" expanded="true" signature="117:806" ph="{...}" />
             <marker date="1580657915172" expanded="true" signature="209:357" ph="{...}" />
             <marker date="1580657915172" expanded="true" signature="307:351" ph="{...}" />
             <marker date="1580657915172" expanded="true" signature="378:802" ph="{...}" />
             <marker date="1580657915172" expanded="true" signature="569:796" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CambioImagen.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <marker date="1580564551127" expanded="true" signature="6:148" ph="..." />
+            <marker date="1580564551127" expanded="true" signature="191:895" ph="{...}" />
+            <marker date="1580564551127" expanded="true" signature="440:469" ph="{...}" />
+            <marker date="1580564551127" expanded="true" signature="527:886" ph="{...}" />
+            <marker date="1580564551127" expanded="true" signature="626:745" ph="{...}" />
+            <marker date="1580564551127" expanded="true" signature="792:870" ph="{...}" />
           </folding>
         </state>
       </provider>
