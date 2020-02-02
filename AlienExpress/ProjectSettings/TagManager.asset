@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ObjetoBuscar
   - ObjetoRecoger
+  - Teleport
   layers:
   - Default
   - TransparentFX

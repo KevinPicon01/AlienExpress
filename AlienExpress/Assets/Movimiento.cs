@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -10,36 +9,33 @@ public class Movimiento : MonoBehaviour
     private bool ab = true;
     private Rigidbody2D _rigidbody;
 
- 
+    float xIniForce;
+    float yIniForce;
 
-    
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        _rigidbody.AddForce(new Vector2(20f,30f));
+
+        xIniForce = Random.Range(-2.0f, 2.6f);
+        yIniForce = Random.Range(-2.0f, 2.6f);
+
+        _rigidbody.AddForce(new Vector2(xIniForce,yIniForce), ForceMode2D.Impulse);
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
-        
         _rigidbody.velocity = new Vector2(0, 0);
         _rigidbody.AddForce(Vector2.up * 100);
         ab = false;
-
-
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Finish") )
         {
-            
             Destroy(gameObject,0.1f);
         }
-
-       
-        
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -53,16 +49,11 @@ public class Movimiento : MonoBehaviour
         if (ab)
         {
             rebota();
-            
         }
-        
-        
-        
     }
 
     void rebota()
     {
-        
         if (transform.position.x >= 8.36f)
         {
             _rigidbody.AddForce(Vector2.left * speed *2 );
@@ -70,11 +61,9 @@ public class Movimiento : MonoBehaviour
             {
                 _rigidbody.velocity = new Vector2(-5, _rigidbody.velocity.y);
             }
-            
         }
         else if (transform.position.x <= -8.36f)
         {   
-           
             _rigidbody.AddForce(Vector2.right* speed*2);
             
             if (_rigidbody.velocity.x > 5)
@@ -83,9 +72,8 @@ public class Movimiento : MonoBehaviour
             }
         }
 
-        if (transform.position.y >= -0.49)
+        if (transform.position.y >= 4.50)
         {
-            
             _rigidbody.AddForce(Vector2.down* speed);
             if (_rigidbody.velocity.y < -5)
             {
@@ -94,7 +82,6 @@ public class Movimiento : MonoBehaviour
         }
         else if (transform.position.y <= -4.47)
         {
-            
             _rigidbody.AddForce(Vector2.up * speed);
             if (_rigidbody.velocity.y >= 5)
             {
