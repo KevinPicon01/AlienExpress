@@ -290,6 +290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136481094}
   - component: {fileID: 136481093}
+  - component: {fileID: 136481095}
   m_Layer: 0
   m_Name: Jeringa
   m_TagString: Untagged
@@ -360,6 +361,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 21.921001}
+--- !u!95 &136481095
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136481092}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c1a77e2dd1b44a4ca82b32d003cd926, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &469315914
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,7 +458,7 @@ Transform:
   m_LocalScale: {x: 14.678835, y: 9.554662, z: 9.554662}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &796078124
 GameObject:
@@ -826,7 +846,7 @@ PrefabInstance:
     - target: {fileID: 1224110283128625060, guid: de5e8287ba47cb14286c1983b2438efc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1224110283128625060, guid: de5e8287ba47cb14286c1983b2438efc,
         type: 3}
@@ -970,7 +990,7 @@ PrefabInstance:
     - target: {fileID: 2447537699752636639, guid: 1de189e2e9fd5be4081317b09e2fbb07,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2447537699752636639, guid: 1de189e2e9fd5be4081317b09e2fbb07,
         type: 3}
@@ -1167,7 +1187,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
