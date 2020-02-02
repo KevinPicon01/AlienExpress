@@ -65,6 +65,9 @@
         <e p="playerMovement.cs" t="Include" />
         <e p="Rayo.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Decorativos" t="Include">
+            <e p="RotarTierra.cs" t="Include" />
+          </e>
           <e p="GameManager.cs" t="Include" />
           <e p="GenerateObjects.cs" t="Include" />
           <e p="Prueba.cs" t="Include" />

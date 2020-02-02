@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8cb294fa-a4c7-4dce-a768-6df9f77a970f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlienExpress/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Movimiento.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Movimiento.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gam.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gam.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/playerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/playerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/prefabs/Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Square.prefab" afterDir="false" />
     </list>
@@ -19,17 +20,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/playerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            <state relative-caret-position="216">
+              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding>
-                <marker date="1580649180761" expanded="false" signature="6:127" ph="..." />
-                <marker date="1580649180761" expanded="true" signature="172:1406" ph="{...}" />
-                <marker date="1580649180761" expanded="true" signature="358:449" ph="{...}" />
-                <marker date="1580649180761" expanded="true" signature="483:796" ph="{...}" />
-                <marker date="1580649180761" expanded="true" signature="851:1046" ph="{...}" />
-                <marker date="1580649180761" expanded="true" signature="910:1031" ph="{...}" />
-                <marker date="1580649180761" expanded="true" signature="1094:1403" ph="{...}" />
-                <marker date="1580649180761" expanded="true" signature="1139:1397" ph="{...}" />
+                <marker date="1580652771666" expanded="false" signature="6:127" ph="..." />
+                <marker date="1580652771666" expanded="true" signature="172:1400" ph="{...}" />
+                <marker date="1580652771666" expanded="true" signature="358:449" ph="{...}" />
+                <marker date="1580652771666" expanded="true" signature="483:796" ph="{...}" />
+                <marker date="1580652771666" expanded="true" signature="851:1046" ph="{...}" />
+                <marker date="1580652771666" expanded="true" signature="910:1031" ph="{...}" />
+                <marker date="1580652771666" expanded="true" signature="1094:1397" ph="{...}" />
+                <marker date="1580652771666" expanded="true" signature="1139:1391" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Decorativos/RotarTierra.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1580651545055" expanded="false" signature="6:99" ph="..." />
+                <marker date="1580651545055" expanded="true" signature="141:295" ph="{...}" />
+                <marker date="1580651545055" expanded="true" signature="192:293" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,6 +80,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CambioImagen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/playerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Decorativos/RotarTierra.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.19f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/TouchInputModule.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -79,6 +95,7 @@
         <option value="$PROJECT_DIR$/Assets/Abd.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/Movimiento.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Decorativos/RotarTierra.cs" />
         <option value="$PROJECT_DIR$/Assets/playerMovement.cs" />
       </list>
     </option>
@@ -176,12 +193,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580526960656</updated>
-      <workItem from="1580526977199" duration="36583000" />
+      <workItem from="1580526977199" duration="38077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36583000" />
+    <option name="totallyTimeSpent" value="38077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,19 +396,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Decorativos/RotarTierra.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1580651545055" expanded="false" signature="6:99" ph="..." />
+            <marker date="1580651545055" expanded="true" signature="141:295" ph="{...}" />
+            <marker date="1580651545055" expanded="true" signature="192:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/playerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="216">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
-            <marker date="1580649180761" expanded="false" signature="6:127" ph="..." />
-            <marker date="1580649180761" expanded="true" signature="172:1406" ph="{...}" />
-            <marker date="1580649180761" expanded="true" signature="358:449" ph="{...}" />
-            <marker date="1580649180761" expanded="true" signature="483:796" ph="{...}" />
-            <marker date="1580649180761" expanded="true" signature="851:1046" ph="{...}" />
-            <marker date="1580649180761" expanded="true" signature="910:1031" ph="{...}" />
-            <marker date="1580649180761" expanded="true" signature="1094:1403" ph="{...}" />
-            <marker date="1580649180761" expanded="true" signature="1139:1397" ph="{...}" />
+            <marker date="1580652771666" expanded="false" signature="6:127" ph="..." />
+            <marker date="1580652771666" expanded="true" signature="172:1400" ph="{...}" />
+            <marker date="1580652771666" expanded="true" signature="358:449" ph="{...}" />
+            <marker date="1580652771666" expanded="true" signature="483:796" ph="{...}" />
+            <marker date="1580652771666" expanded="true" signature="851:1046" ph="{...}" />
+            <marker date="1580652771666" expanded="true" signature="910:1031" ph="{...}" />
+            <marker date="1580652771666" expanded="true" signature="1094:1397" ph="{...}" />
+            <marker date="1580652771666" expanded="true" signature="1139:1391" ph="{...}" />
           </folding>
         </state>
       </provider>

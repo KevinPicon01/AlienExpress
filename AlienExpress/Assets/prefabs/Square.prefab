@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 35
-  rotation1: 0
+  rotation1: 2
 --- !u!50 &5772571907966596485
 Rigidbody2D:
   serializedVersion: 4
